@@ -12,20 +12,12 @@ codigo de bulcle while
     document.write(frase);
     saltoLinea();
   }
-
-  var yearMundial = 1929;
-  var yearLimite = parseInt(prompt("ingresa el año limite para calcular:"));
-    while (yearMundial <= yearLimite ){
-        alert("hubo  mundial de la FIFA en el año  " + yearMundial);
-        yearMundial = yearMundial + 4;
-        if (yearMundial == yearLimite){
-            break;
-
+var contador = parseInt(prompt("Ingrese la cantidad de inicio"));
+ 
+    while (contador <= 100) {
+        imprimir(contador)
+            contador++;
         }
-        yearMundial++;
-
-    }
-    alert("fin")
-
-
-</script>
+       
+    imprimir("FIN")
+ </script>
